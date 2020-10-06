@@ -3,17 +3,18 @@
 #include <iostream>
 #include <string>
 #include <string>
+
 class Weather
 {
 private:
-
-	char dateDescription[7];                    //pointer to string
+//declaration of variiables 
+	char dateDescription[7];    //pointer to string
 	double high;
 	double low;
 
 public:
 
 	void setData(const char*, double, double);
-	void display();
+	void display()const;
 };
 
